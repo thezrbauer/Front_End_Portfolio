@@ -7,12 +7,12 @@ function App() {
       <div>
       <header>
         <div className="nav">
-          <div className="nav-itm"><a id="about">About</a></div>
-          <div className="nav-itm"><a id="projects">Projects</a></div>
-          <div className="nav-itm"><a id="Contact">Contact</a></div>
+          <a className="nav-itm" id="about">About</a>
+          <a className="nav-itm" id="projects">Projects</a>
+          <a className="nav-itm"id="contact">Contact</a>
         </div>
       </header>
-      <body>
+      <div className="body">
         <section>
           <div className="hero-body">
             <div className="hero-img">
@@ -43,7 +43,7 @@ function App() {
           <div className="contact">Contact Stuff With Icons</div>
         </section>
         <footer></footer>
-      </body>
+      </div>
       </div>
     </div>
   );

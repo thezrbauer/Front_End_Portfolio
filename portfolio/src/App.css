@@ -1,38 +1,61 @@
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --sky: #9bdceb;
+  --neutral: #EFEFEF;
+  --carbon: #a9a9a9;
+  --watermelon: #FF3B3F;
+  --sunflower: #FFCE00;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* Navbar */
+.nav {
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin:2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-itm{
+  margin:1rem;
+  font-size:22px;
+  padding-bottom:.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-itm:hover {
+  font-size:24px;
 }
+
+#about {
+  color:var(--sunflower);
+  border-bottom: var(--sunflower) solid 4px;
+  padding-bottom:.5rem;
+}
+
+/* #about:hover {
+  color:black;
+} */
+
+
+#projects {
+  color:var(--watermelon);
+  border-bottom: var(--watermelon) solid 4px;
+  padding-bottom:.5rem;
+}
+
+#contact {
+  color:var(--sky);
+  border-bottom: var(--sky) solid 4px;
+  padding-bottom:.5rem;
+}
+
+/* Hero Section */
