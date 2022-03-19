@@ -13,13 +13,13 @@ function App() {
         </div>
       </header>
       <div className="body">
-        <section>
+        <section className="sec">
           <div className="hero-body">
-            <div className="hero-img">
+           <div className="hero-intro">
+              <h1>Hi I'm Zack. I am a Front End Web Designer</h1>
+           <div className="hero-img">
               <img alt="Photo of subject"></img>
               </div>
-            <div className="hero-intro">
-              <h1>Hi I'm Zack.</h1>
               </div>
             <div className="hero-text">
               <h2>Wee woo wee woo</h2>
@@ -27,26 +27,27 @@ function App() {
             </div>
           </div>
         </section>
-        <section>
+        <section className="sec-alt">
           <div className="project-grid">
               <div className="grid-item">
-
+              IP address Tracker
               </div>
-              <div className="grid-item"></div>
-              <div className="grid-item"></div>
-              <div className="grid-item"></div>
-              <div className="grid-item"></div>
-              <div className="grid-item"></div>
+              <div className="grid-item">galleria</div>
+              <div className="grid-item">time tracking</div>
+              <div className="grid-item">API</div>
+              <div className="grid-item">E-Commerce</div>
+              <div className="grid-item">Book mark thing</div>
+             
           </div>
         </section>
-        <section>
+        <section className="sec">
           <div className="contact">Contact Stuff With Icons</div>
         </section>
         <footer></footer>
       </div>
       </div>
     </div>
-  );
+  ); 
 }
 
 export default App;
