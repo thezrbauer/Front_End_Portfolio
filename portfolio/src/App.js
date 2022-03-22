@@ -10,19 +10,22 @@ function App() {
           <a className="nav-itm" id="about">About</a>
           <a className="nav-itm" id="projects">Projects</a>
           <a className="nav-itm"id="contact">Contact</a>
+          <a className="nav-itm"id="other">Resume</a>
         </div>
       </header>
       <div className="body">
         <section className="sec">
           <div className="hero-body">
            <div className="hero-intro">
-              <h1>Hi I'm Zack. I am a Front End Web Designer</h1>
+             <div className="intro-text">
+              <h1>Hi I'm Zack. I am a Front End Web Designer with a passion for bringing his ideas to life.</h1>
+              </div>
            <div className="hero-img">
               <img alt="Photo of subject"></img>
               </div>
               </div>
             <div className="hero-text">
-              <h2>Wee woo wee woo</h2>
+              <p>Wee woo wee woo</p>
               <p>I am a Front End Web Designer. Looking to provide you with your dream project</p>
             </div>
           </div>

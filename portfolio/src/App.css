@@ -13,12 +13,15 @@
   --carbon: #ececec;
   --watermelon: #FF3B3F;
   --sunflower: #FFCE00;
+  --grape: #6F2DA8;
 }
 
 .App {
   text-align: center;
   font-family: 'Nunito', sans-serif;
+  font-family: 'Rubik', sans-serif;
   background-color: var(--neutral);
+  font-style:"Rubik"
 }
 
 /* Navbar */
@@ -57,10 +60,16 @@
   padding-bottom:.5rem;
 }
 
+#other {
+  color:var(--grape);
+  border-bottom: var(--grape) solid 4px;
+  padding-bottom:.5rem;
+}
+
 /* Hero Section */
 
 section {
-  height:26rem;
+  height:30rem;
   width:auto;
 }
 
@@ -69,43 +78,48 @@ section {
 }
 
 
-
 .hero-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items:center;
-  width:100%;
   height:100%;
+  margin:0px auto;
+  width:80%;
+}
+
+
+
+.hero-intro {
+ display:flex;
+ flex-direction:row-reverse;
+ height:10rem;
+ background-color: var(--sunflower);
+ border-radius:20px;
+ padding-right:1rem;
+ 
 }
 
 .hero-img {
   background-color: var(--watermelon);
   border-radius:20px;
-  width:12rem;
-  height:15rem;
-  margin-top:-4rem;
-  margin-left:.5rem;
+  margin:.5rem;
+  width:200px;
 }
 
-.hero-intro {
-  text-align:right;
-  width:80%;
-  height:8rem;
-  background-color: var(--sunflower);
-  border-radius:20px;
-  padding-right:1rem;
-}
 
 
 .hero-text{
-  text-align:right;
-  padding-right:50px;
-  padding-left:210px;
-  width:80%;
-  height:10rem;
   
+  border-radius: 20px;
+  font-size:20px;
+  height:auto;
+}
 
+.intro-text {
+  color:var(--neutral);
+  font-size:17px;
+  font-weight: 800;
 }
 
 
@@ -115,6 +129,14 @@ section {
   display:grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(3,100px);
-  grid-template-rows: repeat(3,100px);
+  grid-template-columns: repeat(3,200px);
+  grid-template-rows: repeat(3,200px);
+  gap:1px;
+}
+
+.grid-item {
+  width:200px;
+  height:200px;
+  background-color: var(--sky);
+  
 }
