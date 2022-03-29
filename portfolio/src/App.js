@@ -21,11 +21,11 @@ function App() {
               <img src={hero} alt="Photo of subject"></img>
               </div>
             <div className="grid-3">
-              <p>Wee woo wee woo</p>
-              <p>I am a Front End Web Designer. Looking to provide you with your dream project</p>
+              <p>This section should talk a little bit about what I know and what Ive made</p>
+              <p>This section should describe how I can help or what I want, and refer them to the grid </p>
             </div>
             <div className="grid-4">
-              <h1>Hi I'm Zack. I am a Front End Web Designer with a passion for bringing his ideas to life.</h1>
+              <h1>Hi I'm Zack. I am a Front End Web Designer, I enjoy bringing projects to life!</h1>
             
               </div>
           </div>
@@ -46,6 +46,8 @@ function App() {
         <section className="section-a">
           <div className="contact">Contact Stuff With Icons</div>
         </section>
+
+        
         <footer></footer>
       </div>
       </div>
