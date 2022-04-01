@@ -21,7 +21,7 @@ function App() {
               <img src={hero} alt="Photo of subject"></img>
               </div>
             <div className="grid-3">
-              <p>This section should talk a little bit about what I know and what Ive made</p>
+              <p>I love to code, I taught myself to build websites for fun. Now I want to put my hobby to good use. </p>
               <p>This section should describe how I can help or what I want, and refer them to the grid </p>
             </div>
             <div className="grid-4">
