@@ -1,6 +1,7 @@
 
 import './App.css';
 import hero from "./images/hero.JPG"
+import tracking from "./images/time-tracker-hero.PNG"
 function App() {
   return (
     <div className="App">
@@ -21,11 +22,13 @@ function App() {
               <img src={hero} alt="Photo of subject"></img>
               </div>
             <div className="grid-3">
-              <p>I love to code, I taught myself to build websites for fun. Now I want to put my hobby to good use. </p>
-              <p>This section should describe how I can help or what I want, and refer them to the grid </p>
+              <p>I love to code! I taught myself to build websites for fun, but quickly developed a passion for problem solving, 
+                and creating something from nothing with just my own ideas and lines of code. Coding gives me the chance to express myself,
+                 and now I want to share my work with you </p>
+          
             </div>
             <div className="grid-4">
-              <h1>Hi I'm Zack. I am a Front End Web Designer, I enjoy bringing projects to life!</h1>
+              <h1>Hi I'm Zack. I am a Front End Web Designer, check out what I have made!</h1>
             
               </div>
           </div>
@@ -36,7 +39,7 @@ function App() {
               IP address Tracker
               </div>
               <div className="grid-item">galleria</div>
-              <div className="grid-item">time tracking</div>
+              <div className="grid-item"><img src={tracking}></img><h3>time tracking</h3></div>
               <div className="grid-item">API</div>
               <div className="grid-item">E-Commerce</div>
               <div className="grid-item">Book mark thing</div>

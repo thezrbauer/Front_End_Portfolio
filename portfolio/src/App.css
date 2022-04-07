@@ -87,7 +87,7 @@ img {
 .grid-area {
 display:grid;
 margin:5rem auto;
-width:60%;
+width:80%;
 grid-template-rows: repeat(5, 1fr);
 grid-template-columns: repeat(5, 1fr)
 }
@@ -112,28 +112,27 @@ grid-template-columns: repeat(5, 1fr)
 .grid-3 {
   z-index: 3;
   grid-area:4/6/6/3;
-  font-size:22px;
-  padding:4px;
-  
+  font-size:20px;
+
+  line-height:34px;
 }
 
 .grid-4{
-  font-size:28px;
-  padding:2rem 44px 44px;
-
+  font-size:32px;
+  padding:.4rem;
   z-index:4;
   grid-area:4/3/1/6;
   color:white;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 /* Hero Grid responsive */
 
-@media only screen and (max-width: 1700px) {   
+@media only screen and (max-width: 1500px) {   
 img {height:auto;}
 
 .grid-area{
-width:100%;
+width:98%;
 grid-template-rows: repeat(1, 1fr);
 }
 
@@ -146,7 +145,10 @@ grid-template-rows: repeat(1, 1fr);
 
 .grid-3 {
   margin-top:2rem;
-  grid-area:2/6/3/1;}
+  grid-area:2/6/3/1;
+  font-size:24px;
+}
+
 .grid-4 {
   font-size:36px;
   
@@ -170,8 +172,6 @@ grid-template-rows: repeat(1, 1fr);
 @media only screen and (max-width: 950px) {   
   img {height:100%}
 
-  
-
   .grid-1 {grid-area:1/6/1/1;}
 
   .grid-2 {
@@ -180,7 +180,9 @@ grid-template-rows: repeat(1, 1fr);
    
   }
   
-  .grid-3 {grid-area:4/6/4/1;}
+  .grid-3 {
+    grid-area:4/6/4/1;
+    margin:2rem 1rem auto;}
   .grid-4 {
     font-size:24px;
     grid-area: 1/6/1/1;
@@ -197,16 +199,7 @@ grid-template-rows: repeat(1, 1fr);
   font-size:24px;
   line-height:60px;
 }
-  
-
 }
-
-
-
-
-
-
-
 
 /* Grid */
 
