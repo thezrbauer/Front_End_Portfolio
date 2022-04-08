@@ -10,7 +10,7 @@
 :root {
   --sky: #9bdceb;
   --neutral: #EFEFEF;
-  --carbon: #a3a3a3c0;
+  --carbon: #dae3e6de;
   --watermelon: #FF3B3F;
   --sunflower: #FFCE00;
   --grape: #6F2DA8;
@@ -76,7 +76,7 @@ h1 {
 
 
 
-img {
+.grid-2 > img {
   width:100%;
   height:100%;
   border-radius:20px;
@@ -201,25 +201,42 @@ grid-template-rows: repeat(1, 1fr);
 }
 }
 
-/* Grid */
+/* Projects section*/
+
+.project-intro {
+
+  padding:3rem;
+}
+
 
 .project-grid {
   display:grid;
- 
+  padding:3rem;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(3,200px);
-  grid-template-rows: repeat(3,200px);
-  gap:1px;
+  grid-template-columns: repeat(3,400px);
+  grid-template-rows: repeat(3,300px);
+  gap:40px;
 }
+
 
 .grid-item {
-  width:200px;
-  height:200px;
-  background-color: var(--sky);
   
+  height:100%;
+  margin:0;
+  padding:0;
+  background-color: var(--sky);
+  border-radius: 20px;
 }
 
+.project-img {
+  background-image: linear-gradient(#eb01a5, #d13531), url("../src/images/time-tracker-hero.PNG");
 
+}
 
-
+.grid-item > img {
+  width:90%;
+  height:100%;
+  border-radius:20px;
+  
+}

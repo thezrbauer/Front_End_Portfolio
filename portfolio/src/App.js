@@ -34,12 +34,16 @@ function App() {
           </div>
         </section>
         <section className="section-b">
+          <div className="project-intro">
+            <h2>Here are some of my Recent Projects</h2>
+            <p>Check out below for a pirate to steal your children</p>
+          </div>
           <div className="project-grid">
               <div className="grid-item">
               IP address Tracker
               </div>
               <div className="grid-item">galleria</div>
-              <div className="grid-item"><img src={tracking}></img><h3>time tracking</h3></div>
+              <div className="grid-item"><img className="project-img" src={tracking}></img></div>
               <div className="grid-item">API</div>
               <div className="grid-item">E-Commerce</div>
               <div className="grid-item">Book mark thing</div>
