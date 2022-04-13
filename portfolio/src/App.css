@@ -158,15 +158,6 @@ grid-template-rows: repeat(1, 1fr);
 }
 }
 
-@media only screen and (max-width: 1200px) {   
-  .grid-4 {
-    font-size:24px;
-    padding:1rem auto;
-    margin:0;
-    padding-top:10px;
-    line-height:60px;
-  }
-}
 
 
 @media only screen and (max-width: 950px) {   
@@ -229,14 +220,40 @@ grid-template-rows: repeat(1, 1fr);
   border-radius: 20px;
 }
 
-.project-img {
-  background-image: linear-gradient(#eb01a5, #d13531), url("../src/images/time-tracker-hero.PNG");
-
+.grd-time {
+  background-image:  url("../src/images/time-tracker-hero.PNG");
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  color: white;
 }
 
+
+.grd-time:hover {
+
+}
 .grid-item > img {
   width:90%;
   height:100%;
   border-radius:20px;
   
+}
+
+
+
+@media only screen and (max-width: 1250px) {   
+  .project-grid {
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows: repeat(3,300px);
+  }
+}
+
+
+
+
+@media only screen and (max-width: 800px) {   
+  .project-grid {
+  grid-template-columns: repeat(1, 400px);
+  grid-template-rows: repeat(6,300px);
+}
 }

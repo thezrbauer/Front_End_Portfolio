@@ -1,7 +1,6 @@
 
 import './App.css';
 import hero from "./images/hero.JPG"
-import tracking from "./images/time-tracker-hero.PNG"
 function App() {
   return (
     <div className="App">
@@ -23,7 +22,7 @@ function App() {
               </div>
             <div className="grid-3">
               <p>I love to code! I taught myself to build websites for fun, but quickly developed a passion for problem solving, 
-                and creating something from nothing with just my own ideas and lines of code. Coding gives me the chance to express myself,
+                and creating something from nothing with just my own ideas and a few lines of code. Coding gives me the chance to express myself,
                  and now I want to share my work with you </p>
           
             </div>
@@ -36,14 +35,18 @@ function App() {
         <section className="section-b">
           <div className="project-intro">
             <h2>Here are some of my Recent Projects</h2>
-            <p>Check out below for a pirate to steal your children</p>
+            <p></p>
           </div>
           <div className="project-grid">
               <div className="grid-item">
               IP address Tracker
               </div>
               <div className="grid-item">galleria</div>
-              <div className="grid-item"><img className="project-img" src={tracking}></img></div>
+              <div className="grid-item grd-time">
+                <h3>Time Tracker</h3> 
+                <button>Visit the Site</button>
+                <button>Look at the code</button>
+                </div>
               <div className="grid-item">API</div>
               <div className="grid-item">E-Commerce</div>
               <div className="grid-item">Book mark thing</div>
