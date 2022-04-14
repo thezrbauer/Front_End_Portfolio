@@ -8,7 +8,7 @@ function App() {
       <header>
         <div className="nav">
           <a className="nav-itm" id="about" href="#about-section">About</a>
-          <a className="nav-itm" id="projects">Projects</a>
+          <a className="nav-itm" id="projects" href="#project-section">Projects</a>
           <a className="nav-itm"id="contact">Contact</a>
           <a className="nav-itm"id="other">Resume</a>
         </div>
@@ -32,24 +32,37 @@ function App() {
               </div>
           </div>
         </section>
-        <section className="section-b">
+        <section className="section-b" id="project-section">
           <div className="project-intro">
             <h2>Here are some of my Recent Projects</h2>
             <p></p>
           </div>
           <div className="project-grid">
-              <div className="grid-item">
-              IP address Tracker
+              <div className="grid-item grd-ip">
+              <h3 className="grid-title">IP address Tracker</h3>
               </div>
-              <div className="grid-item">galleria</div>
-              <div className="grid-item grd-time">
-                <h3>Time Tracker</h3> 
-                <button>Visit the Site</button>
-                <button>Look at the code</button>
+
+              <div className="grid-item grd-gall">
+                <h3 className="grid-title">galleria</h3>
                 </div>
-              <div className="grid-item">API</div>
-              <div className="grid-item">E-Commerce</div>
-              <div className="grid-item">Book mark thing</div>
+
+              <div className="grid-item grd-time">
+                <h3 className="grid-title">Time Tracker</h3> 
+                {/* <button>Visit the Site</button>
+                <button>Look at the code</button> */}
+                </div>
+                
+              <div className="grid-item grd-calc">
+                <h3 className="grid-title">Calculator</h3>
+                </div>
+
+              <div className="grid-item grd-ec">
+              <h3 className="grid-title">E-Commerce</h3>
+              </div>
+
+              <div className="grid-item grd-book">
+              <h3 className="grid-title">Bookmark Landing page
+              </h3></div>
              
           </div>
         </section>
