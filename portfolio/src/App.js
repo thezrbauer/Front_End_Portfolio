@@ -1,6 +1,14 @@
 
 import './App.css';
 import hero from "./images/hero.JPG"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faCss3, faReact,faJs, faHtml5, faNodeJs, faNode, faGit, faGithub} from '@fortawesome/free-brands-svg-icons'
+
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +18,7 @@ function App() {
           <a className="nav-itm" id="about" href="#about-section">About</a>
           <a className="nav-itm" id="projects" href="#project-section">Projects</a>
           <a className="nav-itm"id="contact">Contact</a>
-          <a className="nav-itm"id="other">Resume</a>
+    
         </div>
       </header>
       <div className="body">
@@ -21,8 +29,8 @@ function App() {
               <img src={hero} alt="Photo of subject"></img>
               </div>
             <div className="grid-3">
-              <p>I love to code! I taught myself to build websites for fun, but quickly developed a passion for problem solving, 
-                and creating something from nothing with just my own ideas and a few lines of code. Coding gives me the chance to express myself,
+              <p>I love to code! I taught myself to build websites for fun, but quickly developed a passion for identifying and solving problems, 
+                and being able to create something Amazing from some lines of code. Coding gives me the chance to express myself,
                  and now I want to share my work with you </p>
           
             </div>
@@ -43,7 +51,7 @@ function App() {
               </div>
 
               <div className="grid-item grd-gall">
-                <h3 className="grid-title">galleria</h3>
+                <h3 className="grid-title">Galleria</h3>
                 </div>
 
               <div className="grid-item grd-time">
@@ -67,7 +75,26 @@ function App() {
           </div>
         </section>
         <section className="section-a">
-          <div className="contact">Contact Stuff With Icons</div>
+          <div className="contact">
+            <h2>This is what I know how to use</h2>
+    
+            <FontAwesomeIcon icon={faReact} />
+            <FontAwesomeIcon icon={faJs} />
+            <FontAwesomeIcon icon={faCss3} />
+            <FontAwesomeIcon icon={faHtml5} />
+            <FontAwesomeIcon icon={faNode} />
+            <FontAwesomeIcon icon={faGit} />
+           
+                <div>
+                  icons
+                </div>
+            <h2>This is how to contact me</h2>
+            <div>
+                  icons
+                </div>
+                <FontAwesomeIcon icon={faGithub} />
+               
+          </div>
         </section>
 
         

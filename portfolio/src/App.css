@@ -205,8 +205,8 @@ grid-template-rows: repeat(1, 1fr);
   padding:3rem;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(3,400px);
-  grid-template-rows: repeat(3,300px);
+  grid-template-columns: repeat(3,550px);
+  grid-template-rows: repeat(3,400px);
   gap:40px;
 }
 
@@ -217,14 +217,15 @@ grid-template-rows: repeat(1, 1fr);
   margin:0;
   padding:0;
   background-color: var(--sky);
-  border-radius: 20px;
-  border-bottom:40px solid black;
+  border-radius: 10px;
+  border:5px solid black;
+  border-bottom:30px solid black;
 }
 
 .grid-title {
   position:absolute;
-  bottom:-3.1rem;
-  left:1.5rem;
+  bottom:-2.8rem;
+  left:1rem;
   color: white;
 }
 
@@ -292,9 +293,9 @@ background-color: black;
 
 
 
-@media only screen and (max-width: 1350px) {   
+@media only screen and (max-width: 1850px) {   
   .project-grid {
-    grid-template-columns: repeat(2,400px);
+    grid-template-columns: repeat(3,400px);
     grid-template-rows: repeat(3,300px);
   }
 }
@@ -302,9 +303,25 @@ background-color: black;
 
 
 
-@media only screen and (max-width: 800px) {   
+@media only screen and (max-width: 1300px) {   
   .project-grid {
-  grid-template-columns: repeat(1, 400px);
+  grid-template-columns: repeat(2, 400px);
   grid-template-rows: repeat(6,300px);
+}
+}
+
+@media only screen and (max-width: 900px) {   
+  .project-grid {
+  grid-template-columns: repeat(1, 430px);
+  grid-template-rows: repeat(6,300px);
+
+}
+}
+
+
+@media only screen and (max-width: 450px) {   
+  .project-grid {
+  grid-template-columns: repeat(1, 360px);
+  grid-template-rows: repeat(6,260px);
 }
 }
