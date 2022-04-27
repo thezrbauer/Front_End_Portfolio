@@ -3,7 +3,7 @@ import './App.css';
 import hero from "./images/hero.JPG"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCss3, faReact,faJs, faHtml5, faNodeJs, faNode, faGit, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faCss3, faReact,faJs, faHtml5,  faNode, faGit, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -77,24 +77,34 @@ function App() {
         <section className="section-a">
           <div className="contact">
             <h2>This is what I know how to use</h2>
-    
-            <FontAwesomeIcon icon={faReact} />
-            <FontAwesomeIcon icon={faJs} />
-            <FontAwesomeIcon icon={faCss3} />
-            <FontAwesomeIcon icon={faHtml5} />
-            <FontAwesomeIcon icon={faNode} />
-            <FontAwesomeIcon icon={faGit} />
-           
-                <div>
-                  icons
-                </div>
-            <h2>This is how to contact me</h2>
-            <div>
-                  icons
-                </div>
-                <FontAwesomeIcon icon={faGithub} />
+            </div>
+
+          <div className="known-icons">
+            <div><FontAwesomeIcon icon={faReact} fixedWidth size="2xl"/> 
+            <h4>React</h4>
+            </div>
+            <div><FontAwesomeIcon icon={faJs} fixedWidth size="2xl"/> 
+            <h4>JavaScript</h4>
+            </div>
+            <div><FontAwesomeIcon icon={faCss3} fixedWidth size="2xl"/> 
+            <h4>CSS3</h4>
+            </div>
+            <div><FontAwesomeIcon icon={faHtml5} fixedWidth size="2xl"/> 
+            <h4>HTML</h4>
+            </div>
+            <div><FontAwesomeIcon icon={faNode} fixedWidth size="2xl"/> 
+            <h4>NodeJS</h4>
+            </div>
+            <div><FontAwesomeIcon icon={faGit} fixedWidth size="2xl"/> 
+            <h4>NodeJS</h4>
+            </div>
+            </div>
                
-          </div>
+            <h2>This is how to contact me</h2>
+            <div className="contact-icons"> 
+                <FontAwesomeIcon icon={faGithub} size="2xl"/>
+                </div>
+          
         </section>
 
         

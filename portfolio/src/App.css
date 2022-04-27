@@ -70,9 +70,9 @@ h1 {
 
 /* Hero Section */
 
-.section-a {background-color: var(--neutral);}
-.section-b { background-color: var(--carbon);
-}
+.section-a {background-color: var(--neutral); padding-bottom:6rem;}
+.section-b { background-color: var(--carbon); padding-bottom:6rem;}
+
 
 
 
@@ -195,8 +195,8 @@ grid-template-rows: repeat(1, 1fr);
 /* Projects section*/
 
 .project-intro {
-
   padding:3rem;
+  font-size:24px;
 }
 
 
@@ -206,8 +206,8 @@ grid-template-rows: repeat(1, 1fr);
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(3,550px);
-  grid-template-rows: repeat(3,400px);
-  gap:40px;
+  grid-template-rows: repeat(2,400px);
+  gap:30px;
 }
 
 
@@ -296,7 +296,7 @@ background-color: black;
 @media only screen and (max-width: 1850px) {   
   .project-grid {
     grid-template-columns: repeat(3,400px);
-    grid-template-rows: repeat(3,300px);
+    grid-template-rows: repeat(2,300px);
   }
 }
 
@@ -306,7 +306,7 @@ background-color: black;
 @media only screen and (max-width: 1300px) {   
   .project-grid {
   grid-template-columns: repeat(2, 400px);
-  grid-template-rows: repeat(6,300px);
+  grid-template-rows: repeat(3,300px);
 }
 }
 
@@ -325,3 +325,23 @@ background-color: black;
   grid-template-rows: repeat(6,260px);
 }
 }
+
+
+
+
+/* Contact */
+
+.contact {
+  margin:4rem;
+  font-size:24px;
+}
+
+
+.known-icons {
+  display:flex;
+  justify-content: center;
+  margin:2rem;
+  font-size:16px;
+  gap:1rem;
+}
+
