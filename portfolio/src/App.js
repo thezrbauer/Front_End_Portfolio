@@ -3,7 +3,7 @@ import './App.css';
 import hero from "./images/hero.JPG"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCss3, faReact,faJs, faHtml5,  faNode, faGit, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faCss3, faReact,faJs, faHtml5,  faNode, faGit, faGoogle} from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -43,7 +43,7 @@ function App() {
 
         <section className="section-b">
           <div className="skills">
-            <h2>These are some of the things I've learned how to use</h2>
+            <h2>These are some of the skills I've picked up</h2>
             </div>
           <div className="known-icons">
           <div className="icons"><FontAwesomeIcon icon={faHtml5} fixedWidth size="2xl"/> 
@@ -78,7 +78,10 @@ function App() {
           <div className="project-grid">
               <div className="grid-item grd-ip">
               <h3 className="grid-title">IP address Tracker</h3>
-              <button className="btn"> View Code</button>
+              <button className="btn" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://github.com/thezrbauer/Ip-address-tracker';
+                }}> View Code</button>
               </div>
 
               <div className="grid-item grd-gall">
@@ -91,22 +94,34 @@ function App() {
 
               <div className="grid-item grd-time">
                 <h3 className="grid-title">Time Tracker</h3> 
-                <button className="btn">View Code</button>
+                <button className="btn" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://github.com/thezrbauer/time_tracker';
+                }}> View Code</button>
                 </div>
                 
               <div className="grid-item grd-calc">
                 <h3 className="grid-title">Calculator</h3>
-                <button className="btn"> View Code</button>
+                <button className="btn" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://github.com/thezrbauer/R_Calculator';
+                }}> View Code</button>
                 </div>
 
               <div className="grid-item grd-ec">
               <h3 className="grid-title">E-Commerce</h3>
-              <button className="btn"> View Code</button>
+              <button className="btn" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://github.com/thezrbauer/R_ecommerce';
+                }}> View Code</button>
               </div>
 
               <div className="grid-item grd-book">
               <h3 className="grid-title">Bookmark Landing page</h3>
-              <button className="btn"> View Code</button>
+              <button className="btn" onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://github.com/thezrbauer/bookmark_landing_page';
+                }}> View Code</button>
               </div>
              
           </div>
@@ -117,8 +132,11 @@ function App() {
         <h2>Click below and say Hi!</h2>
         </div>
             <div className="contact-icons"> 
-                <FontAwesomeIcon icon={faGithub} size="2xl"/>
+                <FontAwesomeIcon icon={faGoogle} size="2xl"/>
                 </div>
+
+
+                
                 </section>
         <footer></footer>
       </div>
